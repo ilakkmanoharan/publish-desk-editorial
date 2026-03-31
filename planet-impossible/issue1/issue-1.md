@@ -30,8 +30,6 @@ publish_desk:
     - planet-impossible
 ---
 
-# 🪐 Planet Impossible  
-## Issue #1: The Endless Loop
 
 > *A story about effort, rejection, and the quiet fight to keep going.*
 
