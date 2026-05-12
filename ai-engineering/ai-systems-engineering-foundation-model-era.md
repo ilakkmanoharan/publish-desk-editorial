@@ -1411,4 +1411,4 @@ Safety is not a feature—it's a system-level property that must be engineered a
 
 ---
 
-*This talk is part of the AI Engineering magazine on Publish Desk.*
+*This talk by Ilakkuvaselvi (Ilak) Manoharan is part of the AI Engineering magazine on Publish Desk.*
