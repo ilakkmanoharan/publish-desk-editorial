@@ -21,6 +21,7 @@ publish_desk:
     - digital twins
     - nature AI
   premium: false
+  visibility: private_link
   magazines:
     - ai-engineering
 ---
