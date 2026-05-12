@@ -20,7 +20,7 @@ publish_desk:
     - climate modeling
     - digital twins
     - nature AI
-  premium: false
+  premium: true
   visibility: private_link
   magazines:
     - ai-engineering
