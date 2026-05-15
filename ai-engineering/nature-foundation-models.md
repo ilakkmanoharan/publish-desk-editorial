@@ -3,7 +3,7 @@ publish_desk_active: true
 author: "ilak"
 status: "published"
 createdAt: "2026-05-12"
-updatedAt: "2026-05-12"
+updatedAt: "2026-05-13"
 publish_desk:
   title: "Nature Foundation Models: AI Infrastructure for Understanding and Designing Natural Systems"
   slug: nature-foundation-models
@@ -20,8 +20,7 @@ publish_desk:
     - climate modeling
     - digital twins
     - nature AI
-  premium: true
-  visibility: private_link
+  premium: false
   magazines:
     - ai-engineering
 ---
