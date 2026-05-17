@@ -7,7 +7,7 @@ updatedAt: "2026-05-17"
 publish_desk:
   title: "Inference in AI: From Tokens to Thinking"
   slug: inference-in-ai-from-tokens-to-thinking
-  excerpt: "The definitive visual guide to AI inference — from first principles through token generation, KV cache, GPU serving, optimization, reasoning-time compute, and the economics of production AI."
+  excerpt: "A 15-section technical presentation on AI inference—from token generation and KV cache through GPU serving, optimization, reasoning-time compute, and the economics of production AI."
   category: ai-engineering
   tags:
     - inference
@@ -29,7 +29,7 @@ publish_desk:
 
 > The runtime of intelligence — how frozen models turn prompts into predictions, how GPUs serve billions of tokens, and why inference is becoming the defining systems problem of the AI era.
 
-An interactive visual guide for beginners through advanced AI engineers. **Companion presentation:** `/presentations/inference-in-ai` in the Publish Desk app.
+A 15-section technical presentation for AI engineers, researchers, and technical founders.
 
 ---
 
@@ -52,7 +52,7 @@ Training teaches a model; **inference uses it**. Every chat, agent, copilot, and
 - Modern products ship intelligence as a service: inference is the **runtime**, not an afterthought.
 - GPU-hours at inference scale often **exceed one-time training spend** for popular models.
 
-> **Systems insight:** Think of training as building a highway network and inference as rush-hour traffic management. The architecture is fixed; success is scheduling, capacity, and tail latency.
+> **Key Insight:** Think of training as building a highway network and inference as rush-hour traffic management. The architecture is fixed; success is scheduling, capacity, and tail latency.
 
 ---
 
@@ -344,15 +344,26 @@ From your first keystroke to a reasoning agent orchestrating tools across a GPU 
 └─────────────────────────────────────┘
 ```
 
-**Training built the model. Inference delivers intelligence** — one token, one request, one decision at a time.
+> **Training built the model. Inference delivers intelligence** — one token, one request, one decision at a time.
+
+The full stack — prompt, tokenization, transformer, decoding, GPU, cluster, gateway, agent — is the systems engineering masterpiece of the foundation model era.
+
+**Inference is the runtime of intelligence.**
 
 ---
 
-## Further reading (engineering stack)
+## 15. Closing
 
-- **vLLM** — PagedAttention, continuous batching
-- **TensorRT-LLM** — NVIDIA compiled serving
-- **llama.cpp** — CPU/GGUF edge inference
-- **SGLang** — structured generation, RadixAttention
-- **FlashAttention** — fused attention kernels
-- **Ray Serve / Triton** — production orchestration
+> **Inference in AI moves products from trained models to live intelligence — one token, one request, one decision at a time.**
+
+```
+  ┌──────────┐      ┌─────────────┐      ┌──────────┐      ┌──────────┐
+  │  Prompt  │ ───▶ │ Transformer │ ───▶ │  Decode  │ ───▶ │  Serve   │
+  └──────────┘      └─────────────┘      └──────────┘      └──────────┘
+```
+
+The same serving patterns that power chat, copilots, and agents are now the defining constraint on AI product economics, latency, and scale.
+
+---
+
+*This presentation is also available as an interactive web experience at [/presentations/inference-in-ai](/presentations/inference-in-ai).*
