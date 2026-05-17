@@ -1,6 +1,6 @@
 ---
 publish_desk_active: true
-author: "ilak"
+author: "Ilakkuvaselvi (Ilak) Manoharan"
 status: "published"
 createdAt: "2026-05-17"
 updatedAt: "2026-05-17"
@@ -32,6 +32,15 @@ publish_desk:
 A 14-section technical presentation for AI engineers, researchers, cognitive scientists, and anyone building systems that must **invent** strategies — not merely recall them.
 
 ![Intelligence is not the memorization of solutions. Intelligence is the adaptive invention of strategies in unfamiliar environments — in both artificial and biological minds.](./asra-intelligence-quote.png)
+
+<figure>
+  <video controls playsinline preload="metadata" poster="./asra-intelligence-quote.png">
+    <source src="./asra-intelligence.mp4" type="video/mp4" />
+    Your browser does not support embedded video. You can also watch the
+    <a href="./asra-intelligence.mp4">full presentation recording</a>.
+  </video>
+  <figcaption>Full presentation with voiceover · Ilakkuvaselvi (Ilak) Manoharan · May 2026</figcaption>
+</figure>
 
 ---
 
